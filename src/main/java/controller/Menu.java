@@ -41,6 +41,7 @@ public class Menu {
         Sklep sklep;
         try {
             sklep = pliki.wczytaj();
+
         } catch (Exception e) {
             System.out.println("Błąd odczytu, startujemy z pustym sklepem");
             e.printStackTrace();

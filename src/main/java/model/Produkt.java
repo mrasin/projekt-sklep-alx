@@ -13,6 +13,7 @@ import java.math.BigDecimal;
         use = JsonTypeInfo.Id.NAME, property = "typ"
 ) //jakie pole będzie dołączone jako dodatkowa informacja
 @JsonSubTypes({
+
         @JsonSubTypes.Type(value = Komputer.class, name = "komputer"),
         @JsonSubTypes.Type(value = Dron.class, name = "dron")
 }) //jakie typy będą dołączane

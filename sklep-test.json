@@ -1,0 +1,21 @@
+{
+  "nazwa" : "www.amazon.com",
+  "produkty": [
+    {
+      "nazwa" : "Mac",
+      "cena" : 5000,
+      "marka" : "Apple",
+      "ram" : 8,
+      "id" : 1,
+      "typ" : "komputer"
+    },
+    {
+      "nazwa" : "Dron",
+      "cena" : 2000,
+      "zasieg" : 500,
+      "czyMaKamere" : true,
+      "id" : 2,
+      "typ" : "dron"
+    }
+  ]
+}

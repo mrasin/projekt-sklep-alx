@@ -1,0 +1,18 @@
+{
+  "produkty" : [ {
+    "typ" : "komputer",
+    "id" : 1,
+    "nazwa" : "Mac",
+    "cena" : 5000,
+    "marka" : "Apple",
+    "ram" : 8
+  }, {
+    "typ" : "komputer",
+    "id" : 1,
+    "nazwa" : "Dell",
+    "cena" : 2500,
+    "marka" : "Dell",
+    "ram" : 4
+  } ],
+  "nazwa" : "www.allegro.pl"
+}
